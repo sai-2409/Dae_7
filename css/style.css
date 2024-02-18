@@ -1,0 +1,127 @@
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   font-family: "Roboto";
+   font-weight: 400;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   padding: 0;
+   margin: 0;
+}
+/* color */
+:root{
+   --main__text: rgba(180, 95, 77, 1);
+   --like__yellow: rgba(246, 244, 236, 1);
+   --footer__text: rgba(241, 211, 185, 1);
+   --strange__green: rgba(169, 174, 141, 1);
+}
+/* start coding styles for the header of website */
+.nav{
+   padding: 10px 0;
+}
+.top{
+   background-color: var(--main__text);
+}
+.top__text{
+   color: var(--like__yellow);
+   text-align: center;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 27.2px;
+   padding: 10px 0;
+}
+.nav{
+   background-color: var(--like__yellow);
+}
+.nav__container{
+   max-width: 1400px;
+   margin: 0 auto;
+}
+.nav__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav__list ul {
+   display: flex;
+   list-style: none;
+}
+.nav__list ul li a{
+   color: var(--main__text);
+   font-size: 18px;
+   line-height: 28.8px; /* 160% */
+   text-transform: capitalize;
+   text-decoration: none;
+}
+.nav__list ul li{
+   margin-right: 32px;
+}
+.nav__list ul li:last-child{
+   margin-right: 280px;
+}
+.nav__list ul li a:hover{
+   opacity: 80%;
+}
+.nav__content-logo{
+   margin-right: 500px;
+}
+.nav__content-right{
+   display: flex;
+}
+.nav__right-text, .nav__right-count{
+   color: var(--main__text);
+   font-size: 14px;
+   line-height: 22.4px;
+}
+.nav__content-right img{
+   margin-left: 20px;
+   margin-right: 5px;
+}
+.bg{
+   background-image: url(../images/main__background.jpg);
+   height: 600px;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.bg__button{
+   text-align: center;
+   padding-top: 23%;
+}
+.bg__button button{
+   width: 128px;
+   height: 48px;
+   color: #FFF;
+   font-size: 17px;
+   line-height: 28.8px;
+   background-color: var(--main__text);
+   border: none;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.bg__button button:hover{
+   border: 2px solid var(--main__text);
+   background: none;
+   transition: .4s;
+}
+/* finish coding styles for the header of website */
+

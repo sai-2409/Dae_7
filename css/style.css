@@ -103,7 +103,7 @@ p {
    background-repeat: no-repeat;
 
 }
-.bg__button{
+.bg__button-1{
    text-align: center;
    padding-top: 23%;
 }
@@ -125,3 +125,30 @@ p {
 }
 /* finish coding styles for the header of website */
 
+/* start coding styles for title section */
+.green{
+   background-color: var(--strange__green);
+   padding: 69px 0;
+}
+.green__container{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+.green__h3{
+   color: #F6F4EC;
+   font-size: 25px;
+   line-height: 28.8px;
+   font-weight: 400;
+}
+.green__h1{
+   color: #F6F4EC;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 64px;
+   padding-top: 15px;
+   margin-bottom: 30px;
+}
+.bg__button_2 button:hover{
+   color: var(--main__text);
+}
+/* finish coding styles for title section */

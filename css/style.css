@@ -222,3 +222,48 @@ p {
    line-height: 28.8px;
 }
 /* finish coding styles for candle section */
+
+/* start coding styles for girl section */
+.girl{
+   background-color: #F1D3B9;
+   padding: 61px 0;
+}
+.girl__container{
+   max-width: 1157px;
+   margin: 0 auto;
+}
+.girl__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.girl__card{
+   background-color: white;
+   width: 518px;
+   height: 582px;
+   padding: 50px;
+   position: relative;
+   right: 5%;
+}
+.girl__card-title{
+   color: #B45F4D;
+   font-size: 30px;
+   line-height: 57.6px;
+   text-align: center;
+}
+.girl__card-text{
+   color: #B45F4D;
+   font-size: 19px;
+   line-height: 30.4px;
+   max-width: 418px; 
+   margin-top: 22px;
+   margin-bottom: 41px;
+}
+.girl__card-link{
+   color: #B45F4D;
+   font-size: 16px;
+   line-height: 25.6px;
+   text-decoration: none;
+}
+/* finish coding styles for girl section */
+

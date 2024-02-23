@@ -267,3 +267,22 @@ p {
 }
 /* finish coding styles for girl section */
 
+/* start coding section for photos */
+.photo{
+   padding: 25px 0;
+}
+.photo__title{
+   text-align: center;
+   font-size: 23px;
+   line-height: 39.2px; /* 170.435% */
+   margin-bottom: 48px;
+}
+.photo__gallery{
+   display: grid;
+   grid-template-columns: repeat(6, 2fr);
+   gap: 10px;
+   margin-left: 25px;
+
+}
+/* finish coding section for photos */
+

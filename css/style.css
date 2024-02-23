@@ -189,3 +189,36 @@ p {
    line-height: 16px;
 }
 /* finish coding styles for grid section */
+
+/* start coding styles for candle section */
+.candle{
+   padding-top: 25px;
+   padding-bottom: 50px;
+}
+.candle__container{
+   max-width: 1219px;
+   margin: 0 auto;
+}
+.candle__content-pic img{
+}
+.candle__text-container{
+   background-color: #DF9B7A;
+   height: 92px;
+   width: 1219px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+   position: relative;
+   bottom: 20px;
+}
+.candle__big-text{
+   color: #F6F4EC;
+   font-size: 20px;
+   line-height: 32px; /* 160% */
+}
+.candle__small-text{
+   color: #F6F4EC;
+   font-size: 18px;
+   line-height: 28.8px;
+}
+/* finish coding styles for candle section */
